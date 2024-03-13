@@ -1,8 +1,6 @@
 package com.example.uygulama13oyun;
-
 import java.util.Random;
-
-public class Solider {
+public class Asker {
     private Integer atesGucu;
     public Integer getAtesGucu() {
         return atesGucu;
@@ -17,7 +15,7 @@ public class Solider {
     public void setSans(Integer sans) {
         this.sans = sans;
     }
-    public Solider(Integer atesGucu, Integer sans) {
+    public Asker(Integer atesGucu, Integer sans) {
         this.atesGucu = atesGucu;
         this.sans = sans;
     }

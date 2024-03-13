@@ -1,5 +1,4 @@
 package com.example.uygulama13oyun;
-
 public class Oyuncu {
     private String isim;
     private Integer can;
@@ -19,6 +18,6 @@ public class Oyuncu {
         this.isim = isim;
         this.can = can;
     }
-    public Solider tankci = new Tankci();
-    public Solider topcu = new Topcu();
+    public Asker tankci = new Tankci();
+    public Asker topcu = new Topcu();
 }
